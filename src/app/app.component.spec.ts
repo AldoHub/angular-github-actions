@@ -26,10 +26,13 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('actions-angular');
   });
 
+  /*
+  //title was removed from the app component - not needed for now
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain('actions-angular app is running!');
   });
+  */
 });
