@@ -15,7 +15,7 @@ jobs:
       - name: Set up Nodejs
         uses: actions/setup-node@v3.3.0
         with:
-          node-version: '18.20'
+          node-version: '18.x'
           cache: npm #cache and restore dependencies
       
       - name: Install Dependencies
