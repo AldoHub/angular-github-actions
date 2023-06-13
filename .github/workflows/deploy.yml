@@ -35,4 +35,6 @@ jobs:
         with:
           target_branch: gh-pages
           build_dir: dist/actions-angular 
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAGES_TOKEN }}  
 
